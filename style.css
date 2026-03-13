@@ -1,0 +1,144 @@
+body {
+    min-height: 100vh;
+    background: #e0e8ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: calc(100% + 48px);
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    display: block;
+    margin-top: -24px;
+    margin-left: -24px;
+    margin-right: -24px;
+
+
+}
+
+.card1 {
+    width: 370px;
+    padding: 24px;
+    background: #f5f7ffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.ph {
+    color: #7280a7ff;
+    text-align: center;
+    max-width: 30ch;
+    margin: 8px auto 20px;
+    line-height: 1.5;
+    /* font-size: 14px; */
+}
+
+.card2 {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    width: 300px;
+    background: rgba(114, 128, 167, 0.062);
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin: 15px auto;
+
+
+}
+
+.img2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 8px 4px 8px 8px;
+    /* margin-right: 14px; */
+}
+
+.sub {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1.1;
+}
+
+.Plan {
+    font-weight: bold;
+    color: #000;
+    margin: 16px 0px 5px 0px;
+
+}
+
+.price {
+    color: gray;
+    font-size: 14px;
+    margin: 4px 0px 15px 0px;
+}
+
+.btn {
+    margin-left: auto;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    color: #3829e0ff;
+}
+
+.btn:hover {
+    text-decoration: none;
+    color: rgba(56, 41, 224, 0.637);
+}
+
+.payment {
+    display: flex;
+    justify-content: center;
+    background: #3829e0ff;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border-inline-end-style: none;
+    gap: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    margin: 20px;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.payment:hover {
+    background: rgba(56, 41, 224, 0.473);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(56, 41, 224, 0.3);
+    cursor: pointer;
+}
+
+.cancel {
+    display: flex;
+    justify-content: center;
+    /* background: white; */
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-inline-end-style: none;
+    margin: 0px 20px 20px;
+    gap: 10px;
+    color: #7280a7ff;
+    text-decoration: none;
+    padding: 12px 16px;
+    font-weight: bold;
+}
+
+.cancel:hover {
+    color: #020257de;
+}
